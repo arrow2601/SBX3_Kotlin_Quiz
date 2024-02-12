@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SBX3-Kotlin Quiz</string>
+    <string name="username">NIP</string>
+    <string name="password">Password</string>
+    <string name="Login">Login</string>
+    <string name="no_acces">Belum bisa akses?</string>
+    <string name="contact_ikhwan">Hubungi CS Ikhwan</string>
+    <string name="contact_akhwat">Hubungi CS Akhwat</string>
+    <string name="toast_ikhwan">Menghubungi CS Ikhwan</string>
+    <string name="toast_akhwat">Menghubungi CS Akhwat</string>
+    <string name="faq">Lihat FAQ</string>
+    <string name="toast_faq">Menuju halaman FAQ</string>
+    <string name="toast_NIP_Pass_isnt_typed">NIP dan Password Harus diisi</string>
+    <string name="toast_NIP_isnt_typed">NIP Harus diisi</string>
+    <string name="toast_pass_isnt_typed">Password Harus diisi</string>
+    <string name="Login_SUcceed">Menuju Halaman Beranda</string>
+</resources>
