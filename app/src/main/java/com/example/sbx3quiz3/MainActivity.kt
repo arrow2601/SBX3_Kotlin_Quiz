@@ -43,6 +43,7 @@ import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.dimensionResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.TextUnit
@@ -143,7 +144,7 @@ fun TopBar (modifier: Modifier = Modifier) {
         Column(modifier = Modifier.padding(16.dp)) {
             Row {
                 Text(
-                    text = "Pencarian Calon Pasangan",
+                    text = stringResource(id = R.string.title),
                     style = MaterialTheme.typography.displaySmall
                 )
                 Spacer(modifier = Modifier.weight(1f))
@@ -151,7 +152,7 @@ fun TopBar (modifier: Modifier = Modifier) {
             }
             Spacer(modifier = Modifier.padding(4.dp))
             Text(
-                text = "Profil-Profil berikut adalah para peserta yang telah disesuaikan dengan prefensimu",
+                text = stringResource(id = R.string.subtitle),
                 style = MaterialTheme.typography.bodyLarge,
                 color = Color.LightGray,
                 lineHeight = 20.sp
